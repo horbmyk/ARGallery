@@ -5,54 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d295de44-0c64-40b9-88f1-b875518c1a03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/source.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/source/Dwarf Idle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/source/Dwarf Idle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID01_Base_color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID01_Base_color.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID01_Metallic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID01_Metallic.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID01_Roughness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID01_Roughness.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_Base_color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_Base_color.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_Metallic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_Metallic.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_Roughness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_Roughness.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID02_alpha.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_Base_color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_Base_color.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_Metallic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_Metallic.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_Roughness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_Roughness.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/ID03_alpha.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/blinn1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/blinn1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/blinn2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/blinn2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/blinn3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MobileARTemplateAssets/Models/medieval-knight-sculpture-game-ready/textures/blinn3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/AR Starter Assets/ARDemoSceneAssets/Sprites/NicePng_medieval-knight-png_624637.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/AR Starter Assets/ARDemoSceneAssets/Sprites/NicePng_medieval-knight-png_624637.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ARGallery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARGallery/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
@@ -82,6 +34,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/UnityProjects/ARGallery/ARGallery/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/UnityProjects/ARGallery/ARGallery/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/UnityProjects/ARGallery/ARGallery/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -176,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759913479846</updated>
-      <workItem from="1759913481623" duration="1870000" />
+      <workItem from="1759913481623" duration="3094000" />
     </task>
     <servers />
   </component>
