@@ -7,6 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit.Inputs.Readers;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 using UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets;
 using UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets;
+using TMPro;
 
 /// <summary>
 /// Handles dismissing the object menu when clicking out the UI bounds, and showing the
@@ -186,7 +187,12 @@ public class ARTemplateMenuManager : MonoBehaviour
 
     [SerializeField]
     XRInputValueReader<Vector2> m_TapStartPositionInput = new XRInputValueReader<Vector2>("Tap Start Position");
-
+    
+    [SerializeField]
+    private GameObject infoPanel;
+    [SerializeField]
+    private TMP_Text infoLabel;
+    
     /// <summary>
     /// Input to use for the screen tap start position.
     /// </summary>
@@ -227,8 +233,18 @@ public class ARTemplateMenuManager : MonoBehaviour
         m_CancelButton.onClick.AddListener(HideMenu);
         m_DeleteButton.onClick.AddListener(DeleteFocusedObject);
         m_PlaneManager.trackablesChanged.AddListener(OnPlaneChanged);
+        m_ObjectSpawner.onObjectSelected += OnObjectSelected;
     }
 
+    private void OnObjectSelected(SpawnableObjectData data)
+    {
+        if (infoPanel && infoLabel && data)
+        {
+            infoPanel.SetActive(true);
+            infoLabel.text = data.description;
+        }
+    }
+    
     /// <summary>
     /// See <see cref="MonoBehaviour"/>.
     /// </summary>
@@ -239,6 +255,7 @@ public class ARTemplateMenuManager : MonoBehaviour
         m_CancelButton.onClick.RemoveListener(HideMenu);
         m_DeleteButton.onClick.RemoveListener(DeleteFocusedObject);
         m_PlaneManager.trackablesChanged.RemoveListener(OnPlaneChanged);
+        m_ObjectSpawner.onObjectSelected -= OnObjectSelected;
     }
 
     /// <summary>
@@ -400,6 +417,8 @@ public class ARTemplateMenuManager : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+        
+        infoPanel.SetActive(false);
     }
 
     /// <summary>
@@ -427,6 +446,7 @@ public class ARTemplateMenuManager : MonoBehaviour
         if (currentFocusedObject != null)
         {
             Destroy(currentFocusedObject.transform.gameObject);
+            infoPanel.SetActive(false);
         }
     }
 

@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using UnityEngine.XR.Interaction.Toolkit.Utilities;
 
 namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
@@ -28,12 +30,12 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
 
         [SerializeField]
         [Tooltip("The list of prefabs available to spawn.")]
-        List<GameObject> m_ObjectPrefabs = new List<GameObject>();
+        private List<SpawnableObjectData> m_ObjectPrefabs = new();
 
         /// <summary>
         /// The list of prefabs available to spawn.
         /// </summary>
-        public List<GameObject> objectPrefabs
+        public List<SpawnableObjectData> objectPrefabs
         {
             get => m_ObjectPrefabs;
             set => m_ObjectPrefabs = value;
@@ -53,6 +55,8 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
             get => m_SpawnVisualizationPrefab;
             set => m_SpawnVisualizationPrefab = value;
         }
+        
+        public Action <SpawnableObjectData> onObjectSelected;
 
         [SerializeField]
         [Tooltip("The index of the prefab to spawn. If outside the range of the list, this behavior will select " +
@@ -205,7 +209,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
             }
 
             var objectIndex = isSpawnOptionRandomized ? Random.Range(0, m_ObjectPrefabs.Count) : m_SpawnOptionIndex;
-            var newObject = Instantiate(m_ObjectPrefabs[objectIndex]);
+            var newObject = Instantiate(m_ObjectPrefabs[objectIndex].prefab);
             if (m_SpawnAsChildren)
                 newObject.transform.parent = transform;
 
@@ -231,7 +235,17 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
             }
 
             objectSpawned?.Invoke(newObject);
+            
+            if (newObject.TryGetComponent(out XRGrabInteractable grab))
+            {
+                grab.selectEntered.AddListener(_ =>
+                {
+                    onObjectSelected?.Invoke(m_ObjectPrefabs[objectIndex]);
+                });
+            }
+            
             return true;
         }
     }
 }
+

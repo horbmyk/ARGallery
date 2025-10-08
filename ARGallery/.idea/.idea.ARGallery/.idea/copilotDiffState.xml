@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/Assets/Scripts/InfoPanelManager.cs">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Assets/Scripts/InfoPanelManager.cs" />
+              <option name="updatedContent" value="using UnityEngine;&#10;using UnityEngine.UI;&#10;&#10;public class InfoPanelManager : MonoBehaviour&#10;{&#10;    public static InfoPanelManager Instance { get; private set; }&#10;&#10;    [SerializeField] private GameObject panel;&#10;    [SerializeField] private Text objectNameText;&#10;&#10;    private void Awake()&#10;    {&#10;        if (Instance != null &amp;&amp; Instance != this)&#10;        {&#10;            Destroy(gameObject);&#10;            return;&#10;        }&#10;        Instance = this;&#10;        if (panel != null)&#10;            panel.SetActive(false);&#10;    }&#10;&#10;    public void ShowPanel(string objectName)&#10;    {&#10;        if (objectNameText != null)&#10;            objectNameText.text = objectName;&#10;        if (panel != null)&#10;            panel.SetActive(true);&#10;    }&#10;&#10;    public void HidePanel()&#10;    {&#10;        if (panel != null)&#10;            panel.SetActive(false);&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
